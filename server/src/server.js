@@ -2,7 +2,7 @@ const express = require('express')
 const morgan = require('morgan')
 require('dotenv').config()
 const connection = require('./config/config')
-const auth = require('./component/auth/auth');
+const auth = require('./component/auth/authRoutes');
 const user = require('./component/user/userRouter');
 
 
